@@ -3,8 +3,8 @@ import sqlite3
 from telegram import ReplyKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = os.getenv"8765015803:AAESzwZn-gpNtzfqQN1jXgDHA8aTW9LlDo4"
-ADMIN_ID = 8113624729
+TOKEN="8765015803:AAESzwZn-gpNtzfqQN1jXgDHA8aTW9LlDo4"
+ADMIN_ID=8113624729
 
 # ---------- DATABASE ----------
 conn = sqlite3.connect("bot.db", check_same_thread=False)
