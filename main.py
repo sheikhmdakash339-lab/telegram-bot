@@ -3,7 +3,7 @@ import sqlite3
 from telegram import ReplyKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = os.getenv("8765015803:AAECeSOYfstfBTam0p_Jjaer7Jefum89yTM")
+TOKEN = os.getenv"8765015803:AAESzwZn-gpNtzfqQN1jXgDHA8aTW9LlDo4"
 ADMIN_ID = 8113624729
 
 # ---------- DATABASE ----------
